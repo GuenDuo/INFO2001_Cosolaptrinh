@@ -1,11 +1,11 @@
-// 1.QUAN LY DANH SACH SINH VIEN
+// 2.SAP XEP VA TIM KIEM SINH VIEN
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 // Student structure
 struct Student {
-	char ID[20];
+    char ID[20];
     char FullName[100];
     int Age;
     float Grade;
