@@ -16,13 +16,13 @@ int main() {
 
     clock_t start, end;
 
-    // Đo thời gian cho Bubble Sort
+    //Measure the time for Bubble Sort
     start = clock();
     bubbleSort(arr1, n);
     end = clock();
     printf("Thoi gian thuc thi cua Bubble Sort: %f giay\n", ((double)(end - start)) / CLOCKS_PER_SEC);
 
-    // Đo thời gian cho Selection Sort
+    //Measure the time forSelection Sort
     start = clock();
     selectionSort(arr2, n);
     end = clock();
